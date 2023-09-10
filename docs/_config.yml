@@ -23,14 +23,15 @@ email: jonathan@bitflection.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog and company website.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.bitflection.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bitflection.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Bitflection
 github_username:  C0D3Name
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: air
 plugins:
-  - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
